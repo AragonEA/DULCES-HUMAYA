@@ -1,3 +1,10 @@
+:root {
+    --primary-solid: #bca177;
+    --primary-900: rgba(188, 161, 119, 0.9);
+    --dark-bg-solid: #000000;
+    --dark-bg-900: rgba(33, 37, 41,0.9);
+}
+
 .banner {
     background-image: url(./IMAGENES/Central/imagenCentral.png);
     height: 60vh;
@@ -13,6 +20,50 @@
 }
 
 .banner-link{
-    
+
 }
 
+main{
+    background-color: var(--dark-bg-solid);
+}
+
+.products-title {
+    background-color: var(--dark-bg-900);
+    margin: 0;
+    color: white;
+
+}
+
+.product-img {
+    height: 250px;
+    min-width: 250px;
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.product-description {
+    text-align: center;
+    padding: 25px;
+}
+
+.last-product-container {
+    background-color: var(--primary-900);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+    color: white;
+}
+
+.last-product-img{
+    max-height: 400px;
+    max-width: 400px;
+    min-width: 250px;
+}
