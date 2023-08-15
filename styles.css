@@ -78,3 +78,28 @@ main {
 }
 
 
+
+.info-container {
+    background-color: var(--primary-solid);
+}
+
+.info-list {
+    display: flex;
+    margin: 0;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-list-item {
+    color: var(--dark-bg-primary);
+    font-weight: bold;
+    list-style-type: none;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.info-list-item>img {
+    height: 100px;
+    width: 100px;
+}
