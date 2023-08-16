@@ -5,6 +5,7 @@
 }
 
 .navbar{
+.navbar {
     background-color: var(--dark-bg-primary);
 }
 
@@ -29,12 +30,13 @@
 
 .banner-link {}
 
-main {
+body {
     background-color: var(--dark-bg-primary);
 }
 
 .products-title,
-.info-title {
+.info-title,
+.form-title,
     background-color: var(--dark-bg-primary);
     color: white;
     margin: 0;
@@ -102,4 +104,17 @@ main {
 .info-list-item>img {
     height: 100px;
     width: 100px;
+}
+
+.form-container {
+    color: white;
+    display: flex;
+}
+
+
+.form-container>form,
+.form-img {
+    width: 50%;
+}
+
 }
