@@ -36,6 +36,7 @@ body {
 .info-title,
 .form-title,
 .recipes-title,
+.footer-title {
     background-color: var(--dark-bg-primary);
     color: white;
     margin: 0;
@@ -131,4 +132,31 @@ body {
 }
 
 
+
+.footer-logo {
+    height: 150px;
+}
+
+.footer-section {
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer-list>li {
+    list-style: none;
+    gap: 1rem;
+}
+
+.footer-list>li>a,
+.footer-section>p {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-list-title {
+    color: var(--primary-solid);
+    font-weight: 1.5rem;
+    text-decoration: none;
 }
