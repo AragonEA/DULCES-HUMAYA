@@ -4,11 +4,9 @@
     --dark-bg-secondary: #000000;
 }
 
-.navbar{
 .navbar {
     background-color: var(--dark-bg-primary);
 }
-
 
 .banner {
     background-image: url(./IMAGENES/Central/imagenCentral.png);
@@ -37,6 +35,7 @@ body {
 .products-title,
 .info-title,
 .form-title,
+.recipes-title,
     background-color: var(--dark-bg-primary);
     color: white;
     margin: 0;
@@ -116,5 +115,20 @@ body {
 .form-img {
     width: 50%;
 }
+
+.card {
+    border: none;
+    background-color: var(--primary-solid);
+}
+
+.card-title {
+    text-align: center;
+    color: var(--);
+}
+
+.card-text {
+    color: white;
+}
+
 
 }
