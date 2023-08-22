@@ -51,7 +51,6 @@ body {
     background-color: var(--dark-bg-secondary);
     display: flex;
     height: 250px;
-    flex-wrap: wrap;
     align-items: center;
     color: white;
 }
@@ -159,4 +158,44 @@ body {
     color: var(--primary-solid);
     font-weight: 1.5rem;
     text-decoration: none;
+}
+
+
+
+@media only screen and (min-width: 0px) and (max-width: 600px) {
+
+    .product-container {
+        flex-direction: column !important;
+        height: auto;
+    }
+
+    .product-img {
+        height: 125px;
+        width: 100%;
+    }
+
+    .product-description,
+    .form-container>form {
+        width: 100%;
+    }
+
+    .form-img {
+        display: none;
+    }
+
+    .recipes {
+        flex-wrap: wrap;
+    }
+
+    .card {
+        margin: 20px 0;
+    }
+
+    .footer-section {
+        display: none;
+    }
+
+    .footer-section:nth-of-type(3) {
+        display: block;
+    }
 }
