@@ -1,3 +1,5 @@
+@import url('./carousel.css');
+
 :root {
     --primary-solid: #bca177;
     --dark-bg-primary: #1a1a1a;
@@ -26,6 +28,8 @@
     gap: 0.5rem;
 }
 
+.banner-content>p {}
+
 .banner-link {}
 
 body {
@@ -50,14 +54,13 @@ body {
 .product-container {
     background-color: var(--dark-bg-secondary);
     display: flex;
-    height: 250px;
+    height: 350px;
     align-items: center;
     color: white;
 }
 
 .product-description {
     width: 50%;
-    height: 100%;
     text-align: center;
     padding: 25px;
 }
@@ -116,22 +119,6 @@ body {
     width: 50%;
 }
 
-.card {
-    border: none;
-    background-color: var(--primary-solid);
-}
-
-.card-title {
-    text-align: center;
-    color: var(--);
-}
-
-.card-text {
-    color: white;
-}
-
-
-
 .footer-logo {
     height: 150px;
 }
@@ -141,6 +128,11 @@ body {
     display: flex;
     flex-direction: column;
 
+}
+
+.footer-list {
+    padding: 0;
+    color: white;
 }
 
 .footer-list>li {
@@ -164,6 +156,10 @@ body {
 
 @media only screen and (min-width: 0px) and (max-width: 600px) {
 
+    .banner-content {
+        right: auto;
+    }
+
     .product-container {
         flex-direction: column !important;
         height: auto;
@@ -181,14 +177,6 @@ body {
 
     .form-img {
         display: none;
-    }
-
-    .recipes {
-        flex-wrap: wrap;
-    }
-
-    .card {
-        margin: 20px 0;
     }
 
     .footer-section {
