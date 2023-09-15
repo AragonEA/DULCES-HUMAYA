@@ -1,6 +1,4 @@
-addCardRecipesToCarousel();
-
-async function addCardRecipesToCarousel() {
+export async function addCardRecipesToCarousel() {
     const recipeList = await getRecipeListFromAPI()
     handleRecipes(recipeList.meals)
 }

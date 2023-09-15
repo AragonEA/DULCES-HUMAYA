@@ -1,4 +1,4 @@
-@import url('./carousel.css');
+@import url('./css/carousel.css');
 
 :root {
     --primary-solid: #bca177;
@@ -11,7 +11,7 @@
 }
 
 .banner {
-    background-image: url(./IMAGENES/Central/imagenCentral.png);
+    background-image: url(../IMAGENES/Central/imagenCentral.png);
     height: 60vh;
     background-position: right;
     background-size: cover;
@@ -27,10 +27,6 @@
     align-items: center;
     gap: 0.5rem;
 }
-
-.banner-content>p {}
-
-.banner-link {}
 
 body {
     background-color: var(--dark-bg-primary);
